@@ -1,6 +1,6 @@
-import tkinter as tk
+import tkinter as tk #importing the tkinter module for ceating gui interface
 
-def calculate_eligibility():
+def calculate_eligibility(): #function to handle the core logic of determining phone eligibility based on user input.
   try:
     price_of_mobile = float(price_entry.get())
     salary = float(salary_entry.get())
@@ -17,7 +17,7 @@ def calculate_eligibility():
   except ValueError:
     output_label.config(text="Please enter valid numbers.")
 
-root = tk.Tk()
+root = tk.Tk() #creating the main tkinter window
 root.title("Phone Eligibility Calculator")
 
 # Labels and Input fields
