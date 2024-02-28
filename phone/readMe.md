@@ -26,7 +26,7 @@ This is a Python application with a graphical user interface (GUI) that helps us
 3. Enter the EMI percentage offered by the seller.
 4. Click the "Calculate" button.
 5. The application will display whether you are eligible based on the following criteria:
-    * The phone price should not exceed 10% of your monthly salary.
+    * The phone price should not exceed 10% of your yearly salary.
     * The monthly EMI should not exceed 15% of your monthly salary.
 
 ## Contribution
